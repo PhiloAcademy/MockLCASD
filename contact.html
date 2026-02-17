@@ -1,1 +1,64 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | The Lutheran Classical Academy of St. David the King at Zion</title>
+  <meta name="description" content="Get in touch with St. David’s Academy via email or phone." />
+  <meta name="theme-color" content="#b8293c" />
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Page-specific OG tags -->
+  <meta property="og:title" content="Contact St. David’s Lutheran Classical Academy">
+  <meta property="og:description" content="Reach out for inquiries about our upcoming opening in August 2026.">
+  <meta property="og:image" content="img/academy-crest-color.svg">
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <img class="crest" src="img/academy-crest-color.svg" alt="Academy crest" loading="lazy" decoding="async">
+      <h1>The Lutheran Classical Academy of St. David the King at Zion</h1>
+      <p class="tagline"><em>Wisdom. Stature. Grace. Bearing the Cross, Wearing the Crown.</em></p>
+      <div class="cta">
+        <a class="btn primary" href="contact.html">Get in Touch</a>
+        <a class="btn ghost" href="timeline.html">Timeline</a>
+      </div>
+    </div>
+  </header>
+  <nav aria-label="Primary">
+    <div class="wrap navRow">
+      <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span><span>St. David’s Academy</span></a>
+      <div class="navLinks">
+        <a href="welcome.html">Welcome</a>
+        <a href="lamps.html">Guiding Lamps</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <main class="wrap" role="main">
+    <section id="contact" class="card" role="region" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>Email is best for inquiries.</p>
+      <!-- Simple form example using Formspree; replace with your endpoint -->
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn primary">Send</button>
+      </form>
+      <p class="fine">
+        Zion Lutheran Church • 709 N Sixth Street • Wausau, WI 54403 •
+        <a href="tel:+17158487286">715-848-7286</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>© <span id="year"></span> St. David’s Academy.</span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
